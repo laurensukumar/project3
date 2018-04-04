@@ -1,4 +1,4 @@
-# Project 3: greedy versus exhaustive
+# Project 3: constant factor vs efficiency class
 
 Group members:
 
