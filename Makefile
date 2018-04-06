@@ -1,5 +1,5 @@
 
-CPP = g++ -std=c++11 -Wall
+CPP = g++-7 -std=c++11 -Wall
 
 all: sort_timing run_test
 
