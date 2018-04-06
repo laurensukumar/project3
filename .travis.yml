@@ -1,11 +1,10 @@
 language: cpp
-compiler: clang
+compiler: gcc
 addons:
     apt:
         sources:
         - ubuntu-toolchain-r-test
         packages:
-        - libstdc++-4.8-dev
+        - g++-7
 install: true
 script: make
-
