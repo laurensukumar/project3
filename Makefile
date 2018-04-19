@@ -1,8 +1,8 @@
 
-GXX49_VERSION := $(shell g++4.9 --version 2>/dev/null)
+GXX49_VERSION := $(shell g++-4.9 --version 2>/dev/null)
 
 ifdef GXX49_VERSION
-	CXX_COMMAND := g++4.9
+	CXX_COMMAND := g++-4.9
 else
 	CXX_COMMAND := g++
 endif
